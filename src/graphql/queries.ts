@@ -7,7 +7,6 @@ export const GET_PRODUCTS = gql`
       id
       name
       price
-      // Add other fields you need
     }
   }
 `;

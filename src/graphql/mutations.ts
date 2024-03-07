@@ -8,7 +8,6 @@ export const ADD_TO_CART = gql`
       id
       name
       price
-      // Add other fields you need
     }
   }
 `;
@@ -19,7 +18,6 @@ export const REMOVE_FROM_CART = gql`
       id
       name
       price
-      // Add other fields you need
     }
   }
 `;
@@ -29,7 +27,6 @@ export const CHECKOUT = gql`
     checkout(paymentMethod: $paymentMethod, shippingAddress: $shippingAddress) {
       id
       status
-      // Add other fields you need
     }
   }
 `;

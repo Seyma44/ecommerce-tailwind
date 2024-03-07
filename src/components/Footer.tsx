@@ -2,9 +2,18 @@ import React from 'react';
 
 const Footer: React.FC = () => {
   return (
-    <footer className="bg-indigo-600 text-white py-8">
+    <footer className="bg-indigo-600 text-white py-8 px-5">
       <div className="container mx-auto px-4">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
+          <div>
+            <h3 className="text-lg font-semibold mb-4">Customer Service</h3>
+            <ul className="text-sm">
+              <li>FAQs</li>
+              <li>Contact Us</li>
+              <li>Shipping Information</li>
+              <li>Returns & Exchanges</li>
+            </ul>
+          </div>
           <div>
             <h3 className="text-lg font-semibold mb-4">Customer Service</h3>
             <ul className="text-sm">
@@ -29,7 +38,7 @@ const Footer: React.FC = () => {
               <input
                 type="email"
                 placeholder="Enter your email"
-                className="bg-indigo-800 text-white rounded-l px-4 py-3 focus:outline-none"
+                className="bg-indigo-800 text-white rounded-l px-4 py-3 focus:outline-none -mr-5"
               />
               <button className="bg-indigo-700 rounded-r px-4 py-3">Subscribe</button>
             </form>
